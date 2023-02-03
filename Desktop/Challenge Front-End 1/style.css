@@ -1,0 +1,29 @@
+body {
+  margin: 0px 100px;
+}
+
+.navegador {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px 0px;
+}
+
+.barra__de__pesquisa {
+  width: 300px;
+  height: 25px;
+  margin: 0px 40px;
+  padding-left: 20px;
+  background: #f5f5f5;
+  border-radius: 20px;
+  border-style: none;
+}
+
+.botao__login {
+  margin-left: auto;
+  background-color: #ffffff;
+  padding: 15px 50px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #2a7ae4;
+}
