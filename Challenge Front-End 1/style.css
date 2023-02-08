@@ -1,0 +1,64 @@
+.navegador {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px 100px;
+}
+
+.barra__de__pesquisa {
+  width: 300px;
+  height: 25px;
+  margin: 0px 40px;
+  padding-left: 20px;
+  background: #f5f5f5;
+  border-radius: 20px;
+  border-style: none;
+  background-image: url(./img/Icone-lupa.svg);
+  background-repeat: no-repeat;
+  background-position-x: 290px;
+  background-size: 20px;
+  background-position-y: center;
+}
+
+.botao__login {
+  margin-left: auto;
+  background-color: #ffffff;
+  padding: 15px 50px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #2a7ae4;
+}
+
+.primeira__secao {
+  background-image: url(./img/Hero_768X352.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.conteudo__primario {
+  color: #ffffff;
+  margin: 0px 100px;
+  padding: 100px 0px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  line-height: 50px;
+}
+
+h2 {
+  font-size: 52px;
+  margin-top: 60px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.botao__consoles {
+  padding: 20px 20px;
+  background-color: #2a7ae4;
+  color: #ffffff;
+  border-style: none;
+}
